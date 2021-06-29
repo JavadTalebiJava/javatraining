@@ -11,6 +11,6 @@ public class Math {
     }
 
     public void showResult(){
-        System.out.println(this.timesThree(8));
+        Logger.info(String.valueOf(this.timesThree(8)) );
     }
 }
